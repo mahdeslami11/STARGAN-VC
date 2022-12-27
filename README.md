@@ -7,6 +7,9 @@ Note that the model architecture is a little different from that of the original
 
 ![image](https://user-images.githubusercontent.com/114937581/209695124-9f99eded-147c-460c-82a4-b5511ce68bdb.png)
 
+This is a method that allows non-parallel manyto-many voice conversion (VC) by using a variant of a generative adversarial network (GAN) called StarGAN. Our method, which we call StarGAN-VC, is noteworthy in that it requires no parallel utterances, transcriptions, or time alignment procedures for speech generator training, simultaneously learns many-to-many mappings across different attribute domains using a single generator network, is able to generate converted speech signals quickly enough to allow real-time implementations and requires only several minutes of training examples to generate reasonably realistic sounding speech. Subjective evaluation experiments on a non-parallel many-to-many speaker identity conversion task revealed that the proposed method obtained higher sound
+quality and speaker similarity than a state-of-the-art method based on variational autoencoding GANs.
+
 
 # Dependencies
 * Python 3.6 (or 3.5)
