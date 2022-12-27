@@ -13,7 +13,7 @@ Note that the model architecture is a little different from that of the original
 # Usage
 ## Download Dataset
 
-Download and unzip [VCTK](https://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html) corpus to designated directories.
+please download and unzip [VCTK](https://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html) corpus to designated directories.
 
 ```bash
 mkdir ./data
@@ -56,6 +56,19 @@ convert.py --resume_iters 200000 --src_spk p262 --trg_spk p272
 
 ## To-Do list
 - [x] Post some converted samples (Please find some converted samples in the `converted_samples` folder).
+
+
+## These papers help to better understand STARGAN-VC
+[3-STARGAN-VC2.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309519/3-STARGAN-VC2.pdf)
+[5-STARGAN-one-shot.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309520/5-STARGAN-one-shot.pdf)
+[6-STARGAN-japon.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309523/6-STARGAN-japon.pdf)
+[7-STARGAN-toward.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309524/7-STARGAN-toward.pdf)
+[8-STARGAN-ASR.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309525/8-STARGAN-ASR.pdf)
+[2-STARGANv2-vc.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309517/2-STARGANv2-vc.pdf)
+[Uploading [10-stargan.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309528/10-stargan.pdf)
+9-STARGAN-ZSVC.pdf…]()
+
+
 
 ## Papers that use this repo:
 1. [AUTOVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss (ICML2019)](https://arxiv.org/pdf/1905.05879v2.pdf)
