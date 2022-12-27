@@ -1,5 +1,8 @@
 # StarGAN-Voice-Conversion
-This is a pytorch implementation of the paper: StarGAN-VC: Non-parallel many-to-many voice conversion with star generative adversarial networks  https://arxiv.org/abs/1806.02169 .
+This is a pytorch implementation of the paper: StarGAN-VC: Non-parallel many-to-many voice conversion with star generative adversarial networks:  https://arxiv.org/abs/1806.02169 .
+
+and I also used this paper:
+[AUTOVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss (ICML2019)](https://arxiv.org/pdf/1905.05879v2.pdf)
 Note that the model architecture is a little different from that of the original paper.
 
 # Dependencies
@@ -60,18 +63,24 @@ convert.py --resume_iters 200000 --src_spk p262 --trg_spk p272
 
 ## These papers help to better understand STARGAN-VC
 [1-STARGAN-VC2.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309519/3-STARGAN-VC2.pdf)
+
 [2-STARGAN-one-shot.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309520/5-STARGAN-one-shot.pdf)
+
 [3-STARGAN-japon.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309523/6-STARGAN-japon.pdf)
+
 [4-STARGAN-toward.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309524/7-STARGAN-toward.pdf)
+
 [5-STARGAN-ASR.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309525/8-STARGAN-ASR.pdf)
+
 [6-STARGANv2-vc.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309517/2-STARGANv2-vc.pdf)
-[Uploading [7-stargan.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309528/10-stargan.pdf)
-8-STARGAN-ZSVC.pdf…]()
+
+[7-STARGAN-ZSVC.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309551/9-STARGAN-ZSVC.pdf)
+
+[8-stargan.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309552/10-stargan.pdf)
 
 
 
-## Papers that use this repo:
-1. [AUTOVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss (ICML2019)](https://arxiv.org/pdf/1905.05879v2.pdf)
-2. [Blow: a single-scale hyperconditioned flow for non-parallel raw-audio voice conversion (NeurIPS 2019)](https://arxiv.org/pdf/1906.00794.pdf)
-3. [ADAGAN: ADAPTIVE GAN FOR MANY-TO-MANY NON-PARALLEL VOICE CONVERSION (under review for ICLR 2020)](https://openreview.net/pdf?id=HJlk-eHFwH)
+## Papers that use this repo: 
+ [Blow: a single-scale hyperconditioned flow for non-parallel raw-audio voice conversion (NeurIPS 2019)](https://arxiv.org/pdf/1906.00794.pdf)
+ [ADAGAN: ADAPTIVE GAN FOR MANY-TO-MANY NON-PARALLEL VOICE CONVERSION (under review for ICLR 2020)](https://openreview.net/pdf?id=HJlk-eHFwH)
 
