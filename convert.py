@@ -33,6 +33,7 @@ class TestDataset(object):
     def __init__(self, config):
         assert config.trg_spk in speakers, f'The trg_spk should be chosen from {speakers}, but you choose {trg_spk}.'
         # Source speaker
+           
         self.src_spk = config.src_spk
         self.trg_spk = config.trg_spk
 
