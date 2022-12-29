@@ -1,14 +1,27 @@
-# StarGAN-Voice-Conversion
+# STARGAN-VC 
 This is a pytorch implementation of the paper: StarGAN-VC: Non-parallel many-to-many voice conversion with star generative adversarial networks:  https://arxiv.org/abs/1806.02169 .
-and I also used this paper:
-[AUTOVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss (ICML2019)](https://arxiv.org/pdf/1905.05879v2.pdf)
+and I also used this paper: [AUTOVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss (ICML2019)](https://arxiv.org/pdf/1905.05879v2.pdf)
 Note that the model architecture is a little different from that of the original paper.
 
+![Untitled14114](https://user-images.githubusercontent.com/114937581/210011279-512e2985-2e7d-4528-9c79-58f26a893391.png)
 
-![image](https://user-images.githubusercontent.com/114937581/209695124-9f99eded-147c-460c-82a4-b5511ce68bdb.png)
 
+
+## summery of repo
+Summary by hannaneh faraji:
 This is a method that allows non-parallel manyto-many voice conversion (VC) by using a variant of a generative adversarial network (GAN) called StarGAN. Our method, which we call StarGAN-VC, is noteworthy in that it requires no parallel utterances, transcriptions, or time alignment procedures for speech generator training, simultaneously learns many-to-many mappings across different attribute domains using a single generator network, is able to generate converted speech signals quickly enough to allow real-time implementations and requires only several minutes of training examples to generate reasonably realistic sounding speech. Subjective evaluation experiments on a non-parallel many-to-many speaker identity conversion task revealed that the proposed method obtained higher sound
 quality and speaker similarity than a state-of-the-art method based on variational autoencoding GANs.
+
+summary (voice)
+https://drive.google.com/file/d/1RraBeVvB1oVcjoaM1jnJyVykSrMzQmJa/view?usp=share_link
+
+## project explanation
+[project explanation.pdf](https://github.com/mahdeslami11/STARGAN-VC/files/10322080/project.explanation.pdf)
+[project 6-faraji.pdf](https://github.com/mahdeslami11/STARGAN-VC/files/10322147/project.6-faraji.pdf)
+
+video:
+https://drive.google.com/file/d/1Cv_nuiuctwSBLEwTamuwJghPB30n0n9A/view?usp=sharing
+https://drive.google.com/file/d/1k8R2_uMVb2O1X-KaN4Qbv6kG-EBze-70/view?usp=share_link
 
 
 # Dependencies
@@ -18,7 +31,10 @@ quality and speaker similarity than a state-of-the-art method based on variation
 * tqdm
 * librosa
 * tensorboardX and tensorboard
+[10 repo.zip](https://github.com/mahdeslami11/STARGAN-VC/files/10322158/10.repo.zip)
 
+
+https://uupload.ir/view/rec_0020_qo5u.mp4/
 # Usage
 ## Download Dataset
 
@@ -28,43 +44,8 @@ please download and unzip [VCTK](https://homepages.inf.ed.ac.uk/jyamagis/page3/p
 mkdir ./data
 wget https://datashare.is.ed.ac.uk/bitstream/handle/10283/2651/VCTK-Corpus.zip?sequence=2&isAllowed=y
 unzip VCTK-Corpus.zip -d ./data
-```
-If the downloaded VCTK is in tar.gz, run this:
-
-```bash
-tar -xzvf VCTK-Corpus.tar.gz -C ./data
-```
-
-Preprocess data
-
-We will use Mel-cepstral coefficients(MCEPs) here.
-
-```bash
-python preprocess.py --sample_rate 16000 \
-                    --origin_wavpath data/VCTK-Corpus/wav48 \
-                    --target_wavpath data/VCTK-Corpus/wav16 \
-                    --mc_dir_train data/mc/train \
-                    --mc_dir_test data/mc/test
-```
-
-Train model
 
 Note: you may need to early stop the training process if the training-time test samples sounds good or the you can also see the training loss curves to determine early stop or not.
-
-```
-python main.py
-```
-
-Convert
-
-For example: restore model at step 200000 and specify the source speaker and target speaker to `p262` and `p272`, respectively.
-
-```
-convert.py --resume_iters 200000 --src_spk p262 --trg_spk p272
-```
-
-## To-Do list
-- [x] Post some converted samples (Please find some converted samples in the `converted_samples` folder).
 
 
 ## These papers help to better understand STARGAN-VC
@@ -93,3 +74,4 @@ convert.py --resume_iters 200000 --src_spk p262 --trg_spk p272
 
 
 ## hannaneh faraji(40114140111016)
+I am a master's student at South Tehran University, in the field of medical engineering, bioelectrical orientation. This project is related to the course of digital signal processing .
