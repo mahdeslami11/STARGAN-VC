@@ -31,7 +31,7 @@ https://drive.google.com/file/d/1k8R2_uMVb2O1X-KaN4Qbv6kG-EBze-70/view?usp=share
 * tqdm
 * librosa
 * tensorboardX and tensorboard
-[10 repo.zip](https://github.com/mahdeslami11/STARGAN-VC/files/10322158/10.repo.zip)
+
 
 
 https://uupload.ir/view/rec_0020_qo5u.mp4/
@@ -65,7 +65,7 @@ Note: you may need to early stop the training process if the training-time test 
 
 [8-stargan.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309552/10-stargan.pdf)
 
-
+[10 repo.zip](https://github.com/mahdeslami11/STARGAN-VC/files/10322158/10.repo.zip)
 
 ## Papers that use this repo: 
  [Blow: a single-scale hyperconditioned flow for non-parallel raw-audio voice conversion (NeurIPS 2019)](https://arxiv.org/pdf/1906.00794.pdf)
