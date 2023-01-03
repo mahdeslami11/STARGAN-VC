@@ -3,7 +3,7 @@ This is a pytorch implementation of the paper: StarGAN-VC: Non-parallel many-to-
 and I also used this paper: [AUTOVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss (ICML2019)](https://arxiv.org/pdf/1905.05879v2.pdf)
 Note that the model architecture is a little different from that of the original paper.
 
-![Untitled14114](https://user-images.githubusercontent.com/114937581/210011279-512e2985-2e7d-4528-9c79-58f26a893391.png)
+![Untitled14114](https://user-images.githubusercontent.com/114937581/210011279-512e2985-2e7d-4528-9c79-58f26a893391.png)   ✔
 
 
 
