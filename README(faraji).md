@@ -3,7 +3,7 @@ This is a pytorch implementation of the paper: StarGAN-VC: Non-parallel many-to-
 and I also used this paper: [AUTOVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss (ICML2019)](https://arxiv.org/pdf/1905.05879v2.pdf)
 Note that the model architecture is a little different from that of the original paper.
 
-![Untitled14114](https://user-images.githubusercontent.com/114937581/210011279-512e2985-2e7d-4528-9c79-58f26a893391.png)   ✔
+![Untitled14114](https://user-images.githubusercontent.com/114937581/210011279-512e2985-2e7d-4528-9c79-58f26a893391.png)   
 
 
 
@@ -12,14 +12,15 @@ Summary by hannaneh faraji:
 This is a method that allows non-parallel manyto-many voice conversion (VC) by using a variant of a generative adversarial network (GAN) called StarGAN. Our method, which we call StarGAN-VC, is noteworthy in that it requires no parallel utterances, transcriptions, or time alignment procedures for speech generator training, simultaneously learns many-to-many mappings across different attribute domains using a single generator network, is able to generate converted speech signals quickly enough to allow real-time implementations and requires only several minutes of training examples to generate reasonably realistic sounding speech. Subjective evaluation experiments on a non-parallel many-to-many speaker identity conversion task revealed that the proposed method obtained higher sound
 quality and speaker similarity than a state-of-the-art method based on variational autoencoding GANs.
 
-summary (voice) ✔
+summary (voice) 
 https://drive.google.com/file/d/1RraBeVvB1oVcjoaM1jnJyVykSrMzQmJa/view?usp=share_link
 
 ## project explanation ✔
 [project explanation.pdf](https://github.com/mahdeslami11/STARGAN-VC/files/10322080/project.explanation.pdf)
 [project 6-faraji.pdf](https://github.com/mahdeslami11/STARGAN-VC/files/10322147/project.6-faraji.pdf)
 
-video: ✔
+
+video: 
 
 https://drive.google.com/file/d/1Cv_nuiuctwSBLEwTamuwJghPB30n0n9A/view?usp=sharing
 https://drive.google.com/file/d/1k8R2_uMVb2O1X-KaN4Qbv6kG-EBze-70/view?usp=share_link
