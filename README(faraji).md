@@ -1,4 +1,4 @@
-# STARGAN-VC 
+# STARGAN-VC ✔
 This is a pytorch implementation of the paper: StarGAN-VC: Non-parallel many-to-many voice conversion with star generative adversarial networks:  https://arxiv.org/abs/1806.02169 .
 and I also used this paper: [AUTOVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss (ICML2019)](https://arxiv.org/pdf/1905.05879v2.pdf)
 Note that the model architecture is a little different from that of the original paper.
@@ -7,19 +7,19 @@ Note that the model architecture is a little different from that of the original
 
 
 
-## summery of repo
+## summery of repo ✔
 Summary by hannaneh faraji:
 This is a method that allows non-parallel manyto-many voice conversion (VC) by using a variant of a generative adversarial network (GAN) called StarGAN. Our method, which we call StarGAN-VC, is noteworthy in that it requires no parallel utterances, transcriptions, or time alignment procedures for speech generator training, simultaneously learns many-to-many mappings across different attribute domains using a single generator network, is able to generate converted speech signals quickly enough to allow real-time implementations and requires only several minutes of training examples to generate reasonably realistic sounding speech. Subjective evaluation experiments on a non-parallel many-to-many speaker identity conversion task revealed that the proposed method obtained higher sound
 quality and speaker similarity than a state-of-the-art method based on variational autoencoding GANs.
 
-summary (voice)
+summary (voice) ✔
 https://drive.google.com/file/d/1RraBeVvB1oVcjoaM1jnJyVykSrMzQmJa/view?usp=share_link
 
-## project explanation
+## project explanation ✔
 [project explanation.pdf](https://github.com/mahdeslami11/STARGAN-VC/files/10322080/project.explanation.pdf)
 [project 6-faraji.pdf](https://github.com/mahdeslami11/STARGAN-VC/files/10322147/project.6-faraji.pdf)
 
-video:
+video: ✔
 https://drive.google.com/file/d/1Cv_nuiuctwSBLEwTamuwJghPB30n0n9A/view?usp=sharing
 https://drive.google.com/file/d/1k8R2_uMVb2O1X-KaN4Qbv6kG-EBze-70/view?usp=share_link
 
@@ -34,7 +34,7 @@ https://drive.google.com/file/d/1k8R2_uMVb2O1X-KaN4Qbv6kG-EBze-70/view?usp=share
 
 
 
-https://uupload.ir/view/rec_0020_qo5u.mp4/
+https://uupload.ir/view/rec_0020_qo5u.mp4/   ✔
 # Usage
 ## Download Dataset
 
@@ -48,7 +48,7 @@ unzip VCTK-Corpus.zip -d ./data
 Note: you may need to early stop the training process if the training-time test samples sounds good or the you can also see the training loss curves to determine early stop or not.
 
 
-## These papers help to better understand STARGAN-VC
+## These papers help to better understand STARGAN-VC  ✔
 [1-STARGAN-VC2.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309519/3-STARGAN-VC2.pdf)
 
 [2-STARGAN-one-shot.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309520/5-STARGAN-one-shot.pdf)
@@ -73,6 +73,10 @@ Note: you may need to early stop the training process if the training-time test 
 
 
 
-## hannaneh faraji(40114140111016)
+## hannaneh faraji(40114140111016)  ✔
 I am a master's student at South Tehran University, in the field of medical engineering, bioelectrical orientation. This project is related to the course of digital signal processing .
+email address: hanafj98@gmail.com
+
+
+orginal project: https://github.com/liusongxiang/StarGAN-Voice-Conversion  ✔
 
