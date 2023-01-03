@@ -38,6 +38,7 @@ https://uupload.ir/view/rec_0020_qo5u.mp4/
 
 ## These papers help to better understand STARGAN-VC  ✔
 
+
 [1-STARGAN-VC2.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309519/3-STARGAN-VC2.pdf)
 
 [2-STARGAN-one-shot.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309520/5-STARGAN-one-shot.pdf)
@@ -55,6 +56,18 @@ https://uupload.ir/view/rec_0020_qo5u.mp4/
 [8-stargan.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309552/10-stargan.pdf)
 
 [10 repo.zip](https://github.com/mahdeslami11/STARGAN-VC/files/10322158/10.repo.zip)
+
+
+
+## Also, in the future we can work on these parts to make the stars work better ✔
+
+Identification of the speaker
+
+Detection of emotional states (laughter, crying, anger, etc.)
+
+Converting a song with an emotional style without losing quality
+
+Convert speech into Japanese phrases
 
 
 ## Download Dataset
@@ -69,29 +82,10 @@ unzip VCTK-Corpus.zip -d ./data
 Note: you may need to early stop the training process if the training-time test samples sounds good or the you can also see the training loss curves to determine early stop or not.
 
 
-## These papers help to better understand STARGAN-VC  ✔
-[1-STARGAN-VC2.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309519/3-STARGAN-VC2.pdf)
-
-[2-STARGAN-one-shot.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309520/5-STARGAN-one-shot.pdf)
-
-[3-STARGAN-japon.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309523/6-STARGAN-japon.pdf)
-
-[4-STARGAN-toward.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309524/7-STARGAN-toward.pdf)
-
-[5-STARGAN-ASR.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309525/8-STARGAN-ASR.pdf)
-
-[6-STARGANv2-vc.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309517/2-STARGANv2-vc.pdf)
-
-[7-STARGAN-ZSVC.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309551/9-STARGAN-ZSVC.pdf)
-
-[8-stargan.pdf](https://github.com/Hanafj/STARGAN-VC/files/10309552/10-stargan.pdf)
-
-[10 repo.zip](https://github.com/mahdeslami11/STARGAN-VC/files/10322158/10.repo.zip)
 
 ## Papers that use this repo: 
  [Blow: a single-scale hyperconditioned flow for non-parallel raw-audio voice conversion (NeurIPS 2019)](https://arxiv.org/pdf/1906.00794.pdf)
  [ADAGAN: ADAPTIVE GAN FOR MANY-TO-MANY NON-PARALLEL VOICE CONVERSION (under review for ICLR 2020)](https://openreview.net/pdf?id=HJlk-eHFwH)
-
 
 
 ## hannaneh faraji(40114140111016)  ✔
