@@ -72,14 +72,17 @@ Convert speech into Japanese phrases
 
 
 
+
 ## hannaneh faraji(40114140111016)  ✔
 I am a master's student at South Tehran University, in the field of medical engineering, bioelectrical orientation. This project is related to the course of digital signal processing .
 email address: hanafj98@gmail.com
 
 
 
+
 ## orginal project:  ✔
 https://github.com/liusongxiang/StarGAN-Voice-Conversion  
+
 
 
 
@@ -93,6 +96,7 @@ wget https://datashare.is.ed.ac.uk/bitstream/handle/10283/2651/VCTK-Corpus.zip?s
 unzip VCTK-Corpus.zip -d ./data
 
 Note: you may need to early stop the training process if the training-time test samples sounds good or the you can also see the training loss curves to determine early stop or not.
+
 
 
 ## Papers that use this repo: 
