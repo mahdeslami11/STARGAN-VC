@@ -27,7 +27,7 @@ https://drive.google.com/file/d/1k8R2_uMVb2O1X-KaN4Qbv6kG-EBze-70/view?usp=share
 https://uupload.ir/view/rec_0020_qo5u.mp4/  
 
 
-# Dependencies
+## Dependencies
 * Python 3.6 (or 3.5)
 * Pytorch 0.4.0
 * pyworld
