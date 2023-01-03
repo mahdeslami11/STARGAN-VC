@@ -20,9 +20,10 @@ https://drive.google.com/file/d/1RraBeVvB1oVcjoaM1jnJyVykSrMzQmJa/view?usp=share
 [project 6-faraji.pdf](https://github.com/mahdeslami11/STARGAN-VC/files/10322147/project.6-faraji.pdf)
 
 video: ✔
+
 https://drive.google.com/file/d/1Cv_nuiuctwSBLEwTamuwJghPB30n0n9A/view?usp=sharing
 https://drive.google.com/file/d/1k8R2_uMVb2O1X-KaN4Qbv6kG-EBze-70/view?usp=share_link
-
+https://uupload.ir/view/rec_0020_qo5u.mp4/  
 
 # Dependencies
 * Python 3.6 (or 3.5)
@@ -34,7 +35,6 @@ https://drive.google.com/file/d/1k8R2_uMVb2O1X-KaN4Qbv6kG-EBze-70/view?usp=share
 
 
 
-https://uupload.ir/view/rec_0020_qo5u.mp4/   ✔
 # Usage
 ## Download Dataset
 
