@@ -26,6 +26,7 @@ https://drive.google.com/file/d/1Cv_nuiuctwSBLEwTamuwJghPB30n0n9A/view?usp=shari
 https://drive.google.com/file/d/1k8R2_uMVb2O1X-KaN4Qbv6kG-EBze-70/view?usp=share_link
 https://uupload.ir/view/rec_0020_qo5u.mp4/  
 
+
 # Dependencies
 * Python 3.6 (or 3.5)
 * Pytorch 0.4.0
@@ -59,7 +60,7 @@ https://uupload.ir/view/rec_0020_qo5u.mp4/
 
 
 
-## Also, in the future we can work on these parts to make the stars work better ✔
+## Also, in the future we can work on these parts to make the STARGAN-VC work better ✔
 
 Identification of the speaker
 
@@ -68,6 +69,18 @@ Detection of emotional states (laughter, crying, anger, etc.)
 Converting a song with an emotional style without losing quality
 
 Convert speech into Japanese phrases
+
+
+
+## hannaneh faraji(40114140111016)  ✔
+I am a master's student at South Tehran University, in the field of medical engineering, bioelectrical orientation. This project is related to the course of digital signal processing .
+email address: hanafj98@gmail.com
+
+
+
+## orginal project:  ✔
+https://github.com/liusongxiang/StarGAN-Voice-Conversion  
+
 
 
 ## Download Dataset
@@ -82,16 +95,9 @@ unzip VCTK-Corpus.zip -d ./data
 Note: you may need to early stop the training process if the training-time test samples sounds good or the you can also see the training loss curves to determine early stop or not.
 
 
-
 ## Papers that use this repo: 
  [Blow: a single-scale hyperconditioned flow for non-parallel raw-audio voice conversion (NeurIPS 2019)](https://arxiv.org/pdf/1906.00794.pdf)
  [ADAGAN: ADAPTIVE GAN FOR MANY-TO-MANY NON-PARALLEL VOICE CONVERSION (under review for ICLR 2020)](https://openreview.net/pdf?id=HJlk-eHFwH)
 
 
-## hannaneh faraji(40114140111016)  ✔
-I am a master's student at South Tehran University, in the field of medical engineering, bioelectrical orientation. This project is related to the course of digital signal processing .
-email address: hanafj98@gmail.com
-
-
-orginal project: https://github.com/liusongxiang/StarGAN-Voice-Conversion  ✔
 
